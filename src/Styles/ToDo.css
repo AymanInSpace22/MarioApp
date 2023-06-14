@@ -1,0 +1,12 @@
+.todoStyle{
+    border-color: green;
+    border-width: 8px;
+    border-radius: 10px;
+    background-color:darkblue;
+}
+
+.todoBtn{
+    border-radius: 50px;
+    color:blue;
+    background-color: blue;
+}
