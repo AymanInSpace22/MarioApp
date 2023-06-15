@@ -1,14 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Angels App Team</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .iphone-container {
+      position: relative;
+      width: 700px;
+      /* Adjust dimensions to match iPhone screen sizes */
+      height: 812px;
+      margin: 0 auto;
+      background-color: transparent;
+      border-radius: 30px;
+      /* Adjust the value to change the roundness */
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .iphone-container .status-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 44px;
+      background-color: #000;
+    }
+
+    .iphone-container .content {
+      position: absolute;
+      top: 44px;
+      left: 0;
+      width: 100%;
+      height: calc(100% - 44px);
+      overflow-y: auto;
+      
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="iphone-container">
+    <div class="status-bar"></div>
+    <div class="content">
+      <div class = "content-inner"></div>
+      <div id="root"></div>
+      <script type="module" src="/src/main.jsx"></script>
+</body>
 </html>
