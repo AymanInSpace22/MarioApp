@@ -1,0 +1,18 @@
+.terminate-button {
+    text-align: center;
+  }
+  
+  .terminate-button button {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-color: black;
+    padding: 10px 20px;
+    font-size: 32px;
+    border-radius: 80px;
+    cursor: pointer;
+  }
+  
+  .terminate-button button:hover {
+    background-color: darkred;
+  }
+  
