@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "commonjs",
   "main": "main.cjs",
-  "homepage": "http://{AymanInSpace22}.github.io/{MarioApp}",
+  "homepage": "http://{aymaninspace22}.github.io/{MarioApp}",
   "scripts": {
     "start": "vite",
     "electron": "electron .",
