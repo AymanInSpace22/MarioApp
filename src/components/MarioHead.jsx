@@ -32,6 +32,7 @@
 
 import React, { useState } from "react";
 import marioImage from "../assets/mario2.png";
+import luigiImage from "../assets/luigi.png";
 // import "./MarioHead.css";
 
 function MarioHead() {
