@@ -37,7 +37,7 @@ function Stopwatch() {
 
   return (
     <div>
-      <h2>Stopwatch</h2>
+      <p>Stopwatch</p>
       <p>{formatTime(time)}</p>
       <button onClick={startTimer}>Start</button>
       <button onClick={pauseTimer}>Pause</button>

@@ -1,12 +1,22 @@
-.todoStyle{
-    border-color: green;
+/* .todoStyle{
+    border-color: #f65151;
     border-width: 8px;
     border-radius: 10px;
-    background-color:darkblue;
-}
+    background-color:#503a3a;
+} */
 
-.todoBtn{
-    border-radius: 50px;
-    color:blue;
-    background-color: blue;
-}
+.todoStyle {
+    border-color: #55ff00;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: #e4e4e4;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 8px 12px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+
+  .todoStyle:focus {
+    border-color: #edffe4;
+  }
