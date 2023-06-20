@@ -9,7 +9,7 @@ import Location from './components/Location'
 import ToDo from './components/ToDo'
 import BitcoinPrice from './components/BitcoinPrice'
 import Stopwatch from './components/StopWatch'
-import Joke from './components/joke'
+import Joke from './components/Joke'
 import ImageConverter from './components/ImageConverter'
 import Iframe from 'react-iframe';
 
