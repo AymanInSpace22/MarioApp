@@ -27,7 +27,7 @@
 
 
 html {
-  background: url("plantImage.jpg") no-repeat center fixed;
+  background: url("/plantImage.jpg") no-repeat center fixed;
   background-size:cover;
 }
 
